@@ -1,0 +1,4 @@
+[Script]
+http-request ^https?:\/\/(raw|gist)\.githubusercontent.com script-path=github-private-repo.js,requires-body=0,tag=Github Private
+[MITM]
+hostname = raw.githubusercontent.com, gist.githubusercontent.com
