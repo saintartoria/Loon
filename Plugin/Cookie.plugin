@@ -52,5 +52,6 @@ http-request https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json script-path=ht
 #4.可能腾讯有某些限制，有些号码无法领取红包，手动阅读几篇，能领取红包，一般情况下都是正常的，
 #5.此脚本根据阅读篇数开启通知，默认20篇，此版本和另一版本相同
 http-request https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, requires-body=true
+http-request https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews2.js, requires-body=true
 [MITM]
 hostname = api.weibo.cn, pay.sc.weibo.com, h5.ele.me, user-api-prd-mx.wandafilm.com, www.52pojie.cn, music.163.com, i.meituan.com, *.rr.tv, *.video.qq.com, api.m.jd.com, *.iqiyi.com, api.inews.qq.com, *.bilibili.com, manga.bilibili.com, api.m.jd.com, superapp.kiwa-tech.com, superapp.kiwa-tech.com, activity-1.m.duiba.com.cn, *.youth.cn, ios.baertt.com, api.inews.qq.com
